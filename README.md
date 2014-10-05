@@ -37,11 +37,18 @@ To see how scope is working 'normally' try:
 
 To see scoping and virtual resources hurt you try:
 ```puppet
-    class { 'scoping::test_in': }
+    class { 'scoping::test_in_0': }
 ```
+
 
 ## Usage
 
+Exercise for PSEs.
+* Classify your node with scoping::test_out, run Puppet and observe the results.
+* Change classification to scoping::test_in_0, run Puppet and observe results.
+* Explain the craziness (hint: use PuppetDB)
+* Change classification to scoping:test_in_1, run Puppet and prove your theory is correct.
+* Write up your results.
 
 ## Reference
 
