@@ -1,0 +1,17 @@
+{
+  "name": "beergeek-scoping",
+  "version": "0.1.0",
+  "author": "beergeek",
+  "summary": "Demonstrate scope",
+  "license": "Apache 2.0",
+  "source": "http://github.com/beergeek/scoping.git",
+  "project_page": "https://github.com/beergeek/scoping",
+  "issues_url": "https://github.com/beergeek/scoping/issues",
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_range": ">= 1.0.0"
+    }
+  ]
+}
+
